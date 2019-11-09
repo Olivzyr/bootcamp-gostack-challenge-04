@@ -1,7 +1,10 @@
 <p align="center">
   <img src="https://skylab.rocketseat.com.br/api/files/1561993774891.svg",>
-  <br />
-  <br />
+</p>
+
+---
+
+<p align="center">
   <br />
   <img src="https://img.shields.io/badge/made%20by-SkullDarth-lightgrey">
   <img src="https://img.shields.io/github/license/SkullDarth/bootcamp-gostack-challenge-03?logoColor=MIT">
