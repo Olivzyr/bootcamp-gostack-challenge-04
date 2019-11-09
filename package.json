@@ -1,0 +1,27 @@
+{
+  "name": "bootcamp-gostack-desafio-04",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SkullDarth/bootcamp-gostack-challenge-04.git",
+  "author": "SkullDarth <yan.brito@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
