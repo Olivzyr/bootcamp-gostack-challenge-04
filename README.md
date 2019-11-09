@@ -30,7 +30,7 @@
 
 ---
 ## **About the Challenge**
-#### **Study concepts present in javascript world using react to introduces with projects rollout and apply for this knoleged to another personal or companies projects.**
+#### Create an application from scratch using **Webpack**, **Babel**, **Webpack Dev Server** and **ReactJS**..
 ---
 # Resources and Procedures
 ---
