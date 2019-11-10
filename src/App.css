@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2F2F2;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility !important; 
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+header#main-header {
+  background: #4A90E2;
+  height: 64px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+header#main-header .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+header#main-header .content img {
+  margin-top: 25px;
+  margin-left: 42px;
+}
+
+header#main-header nav.side ul {
+  display: flex;
+  list-style: none;
+}
+
+header#main-header nav.side ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  margin-top: 23px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+
+
+header#main-header nav.side i {
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-left: 8px;
+}
+
+
+
+
