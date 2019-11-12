@@ -59,6 +59,16 @@ header#main-header nav.side i {
   margin-left: 8px;
 }
 
+body#main-body ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+
+}
+
+body ul li#posts {
+  color: #4A90E2
+}
 
 
 

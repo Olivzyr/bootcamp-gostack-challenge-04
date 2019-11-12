@@ -1,9 +1,22 @@
-import React from 'react';
-import { Component } from 'react-dom';
+import React, { Component } from 'react';
 
 class PostList extends Component {
-  
+  state = {
+    posts: [
+      'React',
+      'React Native',
+      'React'
+    ]
+  };
 
+  render() {
+    return (
+      <>
+          <ul>
+            {this.state.posts.map(post => <li key={post} id="posts">{post}</li>)}
+          </ul>
+      </>
+    );
+  };
 }
-
 export default PostList;
