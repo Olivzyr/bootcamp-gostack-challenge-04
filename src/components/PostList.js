@@ -5,7 +5,6 @@ class PostList extends Component {
     posts: [
       'React',
       'React Native',
-      'React'
     ]
   };
 
