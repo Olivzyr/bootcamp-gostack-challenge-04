@@ -1,13 +1,15 @@
 import React from 'react';
-import facebookLogo from '../assets/facebook-logo.svg';
+import facebookLogo from '../../assets/facebook-logo.svg';
+
+import './styles.css'
 
 function Header() {
   return (
     <header id="main-header">
-      <div class="content">
+      <div className="content">
         <img src={facebookLogo} alt="Logo Facebook"/>
         
-        <nav class="side">
+        <nav className="side">
           <ul>
             <li>Meu Profile</li>
             <i className="material-icons">account_circle</i>

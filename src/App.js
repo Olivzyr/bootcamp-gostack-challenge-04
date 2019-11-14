@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import PostList from './components/PostList';
+
+import Header from './components/Header/index';
+import PostList from './components/PostList/index';
+
 
 function App() {
   return (

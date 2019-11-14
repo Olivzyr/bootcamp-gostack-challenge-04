@@ -1,0 +1,6 @@
+div#post {
+  width: 700px;
+  background: #FFFFFF;
+  margin: 20px auto;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+}
