@@ -20,7 +20,7 @@ class PostList extends Component {
             id: 1,
             author: {
               name: "Diego Fernandes",
-              avatar: "http://url-da-imagem.com/imagem.jpg"
+              avatar: "../assets/diego.png"
             },
             content: "Conteúdo do comentário"
           }
@@ -39,7 +39,7 @@ class PostList extends Component {
             id: 1,
             author: {
               name: "Diego Fernandes",
-              avatar: "http://url-da-imagem.com/imagem.jpg"
+              avatar: "../assets/diego.png"
             },
             content: "Conteúdo do comentário"
           }

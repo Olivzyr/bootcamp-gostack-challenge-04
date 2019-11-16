@@ -8,10 +8,14 @@ class Comment extends Component {
     const { data } = this.props;
 
     return (
-      <div>
-        <p>{data.author.name}</p>
-        <p>{data.content}</p>
+      <div id="comments">
+        <img src={data.author.avatar} id="avatar"/>
+        <div id="author">
+          <p>{data.author.name}</p>
+          <p>{data.content}</p>
+        </div>
       </div>
+
     );
   }
 

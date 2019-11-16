@@ -9,8 +9,9 @@ class Post extends Component {
     
   render() {
     const { data } = this.props;
+
     return (
-      <div>
+      <div id="post">
         <p>{data.author.name}</p>
         <p>{data.date}</p>
         <p>{data.content}</p>
