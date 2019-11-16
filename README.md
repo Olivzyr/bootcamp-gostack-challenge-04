@@ -60,22 +60,30 @@
 - [x] Comment
 ---
 ## Running for First Time
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer. From your command line:
+
 ```bash
-git clone https://github.com/SkullDarth/bootcamp-gostack-challenge-04.git
+# Clone this repository
+$ git clone https://github.com/SkullDarth/bootcamp-gostack-challenge-04.git
 
-yarn
+# Go into the repository
+$ cd bootcamp-gostack-challenge-04
 
-yarn dev
+# Install dependencies
+$ yarn install
+
+# Run the Project
+$ yarn dev
 
 ```
 ---
 ## Project Tree
-#### To create a tree files in project run commands present right below:
+To create a tree files in project run commands present right below in respository folder:
 
 ```bash
-yarn add tree-cli
+$ yarn add tree-cli
 
-yarn tree -l 3 -o out.txt --ignore node_modules, .gitignore
+$ yarn tree -l 3 -o out.txt --ignore node_modules, .gitignore
 
 ```
 
@@ -131,5 +139,8 @@ This project is under the MIT license. See the [LICENSE](./LICENSE) for more inf
 
 [homePage]:https://user-images.githubusercontent.com/16024701/68998643-ebf2e400-0893-11ea-9231-68c621710604.png
 [tree-cli]:https://github.com/MrRaindrop/tree-cli
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
+
 
 
