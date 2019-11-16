@@ -1,0 +1,57 @@
+div.post {
+  max-width: 700px;
+  margin: 0px auto;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 4px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #FFF;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+}
+
+div.post img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  border-radius: 50%;
+  
+}
+
+div.post div.postHeader {
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+div.post div.postContent {
+  border-bottom: 1px solid #EEEEEE ;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+
+}
+
+div.post div.postHeader div {
+  display: flex;
+  flex-direction: column;
+}
+
+div.post div.postHeader div strong {
+  font-size: 14px;
+  color: #4A4A4A;
+  font-weight: none;
+}
+
+
+div.post div.postHeader div span {
+  font-size: 11px;
+  color: #9A9A9A;
+  font-weight: bold;
+}
+
+div.post div.postContent p {
+  font-size: 14px;
+  color: #3E3E3E;
+  font-weight: normal;
+}

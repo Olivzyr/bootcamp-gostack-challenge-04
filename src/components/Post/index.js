@@ -11,10 +11,18 @@ class Post extends Component {
     const { data } = this.props;
 
     return (
-      <div id="post">
-        <p>{data.author.name}</p>
-        <p>{data.date}</p>
-        <p>{data.content}</p>
+      <div className="post">
+        <div className="postContent">
+          <div className="postHeader">
+            <img src={data.author.avatar} alt={data.author.name}/>
+            <div>
+              <strong>{data.author.name}</strong>
+              <span>{data.date}</span>
+            </div>
+          </div>
+          <p>{data.content}</p>
+        </div>
+        
         {data.comments.map(comment => <Comment key={comment.id} data={comment}/> )}
       </div>
     );

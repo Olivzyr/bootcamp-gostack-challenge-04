@@ -1,0 +1,29 @@
+div.comments {
+  display: flex;
+}
+
+div.comments img {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+div.author {
+  background-color: #EEEEEE;
+  border-radius: 20px;
+  padding: 10px 15px;
+  max-width: 592px;
+}
+
+div.author p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  color: #3E3E3E;
+}
+
+div.author p span {
+  font-size: 13px;
+  font-weight: 300;
+}
+

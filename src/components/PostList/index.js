@@ -11,7 +11,7 @@ class PostList extends Component {
         id: 1,
         author: {
           name: "Julio Alcantara",
-          avatar: "http://url-da-imagem.com/imagem.jpg"
+          avatar: "./images/julio.png"
         },
         date: "04 Jun 2019",
         content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
@@ -20,9 +20,9 @@ class PostList extends Component {
             id: 1,
             author: {
               name: "Diego Fernandes",
-              avatar: "../assets/diego.png"
+              avatar: "./images/diego.png"
             },
-            content: "Conteúdo do comentário"
+            content: "A Rocketseat está sempre em busca de novos membros para o time, e geralmente ficamos de olho em quem se destaca no Bootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando vídeos e criando posts, pode me chamar no Discord! (Sério, me chamem mesmo, esse comentário é real)"
           }
         ]
       },
@@ -30,7 +30,7 @@ class PostList extends Component {
         id: 2,
         author: {
           name: "Lucas Sartori",
-          avatar: "http://url-da-imagem.com/imagem.jpg"
+          avatar: "./images/julio.png"
         },
         date: "04 Jun 2019",
         content: "Eu sou feio demaisssssss?",
@@ -39,7 +39,7 @@ class PostList extends Component {
             id: 1,
             author: {
               name: "Diego Fernandes",
-              avatar: "../assets/diego.png"
+              avatar: "./images/diego.png"
             },
             content: "Conteúdo do comentário"
           }
@@ -53,7 +53,7 @@ class PostList extends Component {
   render() {
     return (
       <div className="content">
-        <div id="post">
+        <div id="postlist">
           {this.state.posts.map(post => <Post key={post.id} data={post}/> )}
         </div>
       </div>
